@@ -1,5 +1,8 @@
 import redisClient from '../utils/redis';
 import dbClient from '../utils/db';
+/**
+ * Represents a Redis client.
+ */
 
 class AppController {
   static getStatus(request, response) {
